@@ -28,6 +28,6 @@ def password_generator(length=8):
 
 # 実行
 password_length = get_password_length()
-password_one = password_generator(password_length)
+password = password_generator(password_length)
 
-print("パスワード: " + password_one)
+print("パスワード: " + password)
