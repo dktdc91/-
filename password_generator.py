@@ -1,5 +1,5 @@
 # password_generator.py
-# by Kevin dela Cruz　
+# by Kevin dela Cruz　for Persol Group
 
 import string
 import random
