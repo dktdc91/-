@@ -17,6 +17,8 @@ again = "Y"
 while again == "Y":
     player_choice = input("石、紙、ハサミ：一つ選んでください。")
     computer_choice = choice[randint(0, 2)]
+    
+    # 同点のケース
     if player_choice == computer_choice:
         print("同点だ！もう一回しよう")
     # 石
